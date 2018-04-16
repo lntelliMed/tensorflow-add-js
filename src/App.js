@@ -3,7 +3,7 @@ import * as tf from '@tensorflow/tfjs';
 
 import './App.css';
 import logo from './logo.svg';
-import AndGate from './AndGate';
+import AndGate from './components/AndGate';
 
 class App extends Component {
   state = {

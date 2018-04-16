@@ -1,0 +1,67 @@
+.AndGate-form {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30%;
+  margin-right:30%;
+  font-size: 16px;
+  width: 40%;
+}
+
+.AndGate-form h2 {
+  text-align: center;
+}
+
+.AndGate-input {
+  display: flex;
+  flex-direction: row;
+  align-content: space-around;
+  padding: 5px;
+}
+
+.AndGate-input label {
+  border: none;
+  padding: 8px 25px;
+  text-align: left;
+  text-decoration: none;
+  display: inline-block;
+  font-size: inherit;
+  margin-right: 10px;
+  width: 20%;
+}
+
+.AndGate-input select, input {
+  justify-content: center;
+  flex-grow: 2;
+  padding: 8px 25px;
+  text-align: left;
+  text-decoration: none;
+  display: inline-block;
+  font-size: inherit;
+  margin-right: 10px;
+  width: max-content;
+}
+
+.AndGate-input button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 8px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: inherit;
+  margin-right: 10px;
+  width: max-content;
+  cursor: pointer;
+}
+
+.AndGate-input button:active {
+  background-color: rgb(233, 57, 57);
+  cursor: progress;
+}
+
+.AndGate-input button:hover {
+  box-shadow: 1px 1px #4CAF50;
+}
+
+
