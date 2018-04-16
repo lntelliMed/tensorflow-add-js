@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<!-- Image Credit: <a href="https://vector.me/browse/172289/and_logic_functions_digital_electronics_clip_art" title="and Logic Functions Digital Electronics Clip Art" target="_blank">and Logic Functions Digital Electronics Clip Art</a> from <a href="https://vector.me" title="Vector.me" target="_blank">Vector.me</a> -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   height="62.908962"
+   id="svg2"
+   inkscape:version="0.46dev+devel"
+   sodipodi:docbase="/home/luca"
+   sodipodi:docname="Anonymous_logic_gate_AND.svg"
+   sodipodi:version="0.32"
+   width="213.3821"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"
+   version="1.0"
+   inkscape:export-filename="/Users/johnolsen/Pictures/by author build/assorted authors/logic_functions_digital_01.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
+  <metadata
+     id="metadata3">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>Logic Functions (Digital Electronics)</dc:title>
+        <dc:description>http://www.wikitronics.org</dc:description>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>symbol</rdf:li>
+            <rdf:li>computer</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:publisher>
+          <cc:Agent
+             rdf:about="http://www.openclipart.org/">
+            <dc:title>Open Clip Art Library</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:creator>
+          <cc:Agent
+             rdf:about="http://www.wikitronics.org">
+            <dc:title>Luca Tomat</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:rights>
+          <cc:Agent
+             rdf:about="http://www.wikitronics.org">
+            <dc:title>Luca Tomat</dc:title>
+          </cc:Agent>
+        </dc:rights>
+        <dc:date />
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <cc:license
+           rdf:resource="http://web.resource.org/cc/PublicDomain" />
+        <dc:language>en</dc:language>
+      </cc:Work>
+      <cc:License
+         rdf:about="http://web.resource.org/cc/PublicDomain">
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/Reproduction" />
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/Distribution" />
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs3">
+    <marker
+       id="TriangleOutS"
+       inkscape:stockid="TriangleOutS"
+       orient="auto"
+       refX="0"
+       refY="0"
+       style="overflow:visible">
+      <path
+         d="M 5.77,0 L -2.88,5 L -2.88,-5 L 5.77,0 z"
+         id="path1051"
+         sodipodi:nodetypes="cccc"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="scale(0.2,0.2)" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     bordercolor="#666666"
+     borderopacity="1.0"
+     id="base"
+     inkscape:current-layer="svg2"
+     inkscape:cx="106.69105"
+     inkscape:cy="31.454481"
+     inkscape:document-units="px"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:window-height="778"
+     inkscape:window-width="1276"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:zoom="5.529986"
+     pagecolor="#ffffff"
+     showgrid="true"
+     showguides="false" />
+  <g
+     id="layer1"
+     inkscape:groupmode="layer"
+     inkscape:label="Layer 1"
+     transform="translate(-80.976088,-177.49434)">
+    <g
+       id="g9477"
+       transform="translate(26.26829,135.332)">
+      <path
+         d="M 125.27041,56.083488 L 75.183233,56.083488"
+         id="path2902"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:2.59711337px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         d="M 125.27043,90.402418 L 75.183263,90.402418"
+         id="path2904"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:2.59711337px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         d="M 248.40145,73.616838 L 198.31427,73.616838"
+         id="path2906"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:2.59711337px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         d="M 125.50236,43.482638 C 142.17567,43.610858 158.8816,43.075638 175.52839,44.162608 C 182.70962,45.330798 185.71586,47.286108 189.98489,51.274518 C 196.87261,57.970008 199.36377,68.380958 198.55461,77.580158 C 198.07955,84.719908 194.64195,92.578568 188.4923,97.298618 C 184.88314,100.03662 180.7501,101.74295 175.38142,102.68241 C 165.33904,104.00992 155.17835,103.43396 145.07701,103.6188 C 138.55192,103.62477 132.02615,103.627 125.50236,103.77275 C 125.50236,83.676058 125.50236,63.579328 125.50236,43.482638 z"
+         id="rect1358"
+         sodipodi:nodetypes="ccccccccc"
+         style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#0000a9;stroke-width:2.59711337;stroke-linecap:butt;stroke-linejoin:round;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible" />
+      <path
+         style="font-size:20.77690697px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+         d="M 61.646961,50.529107 L 58.867238,58.066823 L 64.436829,58.066823 L 61.646961,50.529107 M 60.490434,48.510258 L 62.813633,48.510258 L 68.586123,63.656704 L 66.455678,63.656704 L 65.075962,59.771179 L 58.248394,59.771179 L 56.868678,63.656704 L 54.707798,63.656704 L 60.490434,48.510258"
+         id="text2916" />
+      <path
+         style="font-size:20.77690697px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+         d="M 59.09771,90.742273 L 59.09771,96.291574 L 62.384681,96.291574 C 63.487093,96.291575 64.302072,96.065004 64.82962,95.61186 C 65.363912,95.151958 65.631062,94.451955 65.631073,93.511851 C 65.631062,92.564992 65.363912,91.868371 64.82962,91.421986 C 64.302072,90.968851 63.487093,90.74228 62.384681,90.742273 L 59.09771,90.742273 M 59.09771,84.513259 L 59.09771,89.078497 L 62.131057,89.078497 C 63.132019,89.078506 63.875983,88.892515 64.362951,88.520523 C 64.856663,88.141788 65.103524,87.566906 65.103534,86.795878 C 65.103524,86.031635 64.856663,85.460135 64.362951,85.081377 C 63.875983,84.702645 63.132019,84.513272 62.131057,84.513259 L 59.09771,84.513259 M 57.048425,82.829193 L 62.283231,82.829193 C 63.845549,82.829208 65.049418,83.153847 65.894842,83.803111 C 66.740245,84.452402 67.162952,85.375594 67.162964,86.572688 C 67.162952,87.499273 66.946526,88.236474 66.513686,88.784293 C 66.080822,89.33213 65.445071,89.673677 64.60643,89.808935 C 65.614154,90.025369 66.395316,90.478511 66.949919,91.168362 C 67.511262,91.851463 67.79194,92.707021 67.791952,93.73504 C 67.79194,95.087706 67.332035,96.132638 66.412236,96.869837 C 65.492414,97.607039 64.183714,97.975639 62.486131,97.975639 L 57.048425,97.975639 L 57.048425,82.829193"
+         id="text2920" />
+      <path
+         style="font-size:20.77690697px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+         d="M 255.31738,65.901581 L 257.51884,65.901581 L 261.71885,72.130595 L 265.88844,65.901581 L 268.0899,65.901581 L 262.73335,73.83495 L 262.73335,81.048027 L 260.67392,81.048027 L 260.67392,73.83495 L 255.31738,65.901581"
+         id="text2924" />
+    </g>
+  </g>
+</svg>
