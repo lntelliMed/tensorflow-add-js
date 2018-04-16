@@ -41,27 +41,45 @@
   width: max-content;
 }
 
-.AndGate-input button {
+.AndGate-buttons {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 5px;
+}
+
+.AndGate-buttons #trainButton {
   background-color: #4CAF50;
   border: none;
   color: white;
   padding: 8px 25px;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
   font-size: inherit;
   margin-right: 10px;
   width: max-content;
   cursor: pointer;
 }
 
-.AndGate-input button:active {
+.AndGate-buttons #resetButton {
+  background-color: rgb(235, 74, 74);
+  border: none;
+  color: white;
+  padding: 8px 25px;
+  text-align: center;
+  text-decoration: none;
+  font-size: inherit;
+  margin-right: 10px;
+  width: max-content;
+  cursor: pointer;
+}
+
+/* .AndGate-buttons button:active {
   background-color: rgb(233, 57, 57);
   cursor: progress;
 }
 
-.AndGate-input button:hover {
-  box-shadow: 1px 1px #4CAF50;
-}
+.AndGate-buttons button:hover {
+  box-shadow: 1px 1px rgb(90, 103, 211);
+} */
 
 

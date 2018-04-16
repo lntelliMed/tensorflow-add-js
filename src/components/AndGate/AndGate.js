@@ -19,8 +19,8 @@ const andGate = (props) => (
       </select>
     </div>
     <div className="AndGate-input">
-      <input type="text" name="predictedOutput" size="10" placeholder="Predicted Output" value={props.predictedOutput} readOnly />
-      <button>Train Model</button>
+      <label htmlFor="predictedOutput">Predicted Output: </label>
+      <input type="text" name="predictedOutput" size="10" placeholder="..." value={props.predictedOutput} readOnly />
     </div>
     <h2>Configure</h2>
     <div className="AndGate-input">
@@ -30,6 +30,10 @@ const andGate = (props) => (
     <div className="AndGate-input">
       <label htmlFor="learningRate">Learning Rate: </label>
       <input type="number" name="learningRate" placeholder="Learning Rate" step="0.01" value={props.learningRate} />
+    </div>
+    <div className="AndGate-buttons">
+      <button id="trainButton">Train Model</button>
+      <button id="resetButton" onClick={props.resetModel}>Reset Model</button>
     </div>
   </form>
 );

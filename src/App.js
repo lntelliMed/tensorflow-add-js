@@ -3,7 +3,8 @@ import * as tf from '@tensorflow/tfjs';
 
 import './App.css';
 import logo from './logo.svg';
-import AndGate from './components/AndGate';
+import AndGate from './components/AndGate/AndGate';
+import LossChart from './components/LossChart/LossChart';
 
 class App extends Component {
   state = {
@@ -11,11 +12,14 @@ class App extends Component {
     secondInput: 1,
     epochs: 1000,
     learningRate: 0.05,
-    predictedOutput: ''
+    predictedOutput: '',
+    lossArray: []
   }
 
   predictOutput = (event) => {
     event.preventDefault();
+
+    this.setState({ lossArray: [] });
 
     const firstInput = this.state.firstInput;
     const secondInput = this.state.secondInput;
@@ -30,10 +34,15 @@ class App extends Component {
     const loss = (output, y) => output.sub(y).square().mean();
 
     const optimizer = tf.train.sgd(learningRate)
-    for (let i = 0; i < this.state.epochs; i++) {
+    for (let i = 0; i < epochs; i++) {
       optimizer.minimize(() => {
         let currentLoss = loss(f(xs), ys);
-        currentLoss.print();
+        if (i % 10 === 0) {
+          currentLoss.data().then(data => {
+            const lossEntry = [i, Number(data)];
+            this.setState({ lossArray: [...this.state.lossArray, lossEntry] });
+          });
+        }
         return currentLoss;
       });
     }
@@ -54,7 +63,20 @@ class App extends Component {
     }
   }
 
+  resetModel = (event) => {
+    event.preventDefault();
+    this.setState({
+      firstInput: 1,
+      secondInput: 1,
+      epochs: 1000,
+      learningRate: 0.05,
+      predictedOutput: '',
+      lossArray: []
+    });
+  }
+
   render() {
+    let lossArray = this.state.lossArray.length ? this.state.lossArray : [[0,0]];
     return (
       <div className="App">
         <header className="App-header">
@@ -67,14 +89,17 @@ class App extends Component {
         <AndGate
           formChangedHandler={this.formChangedHandler}
           predictOutput={this.predictOutput}
+          resetModel={this.resetModel}
           firstInput={this.state.firstInput}
           secondInput={this.state.secondInput}
           epochs={this.state.epochs}
           learningRate={this.state.learningRate}
           predictedOutput={this.state.predictedOutput} />
+        <LossChart lossArray={lossArray} epochs={this.state.epochs} />
       </div>
     );
   }
 }
+
 
 export default App;
