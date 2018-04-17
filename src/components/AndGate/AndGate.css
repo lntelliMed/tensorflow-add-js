@@ -73,13 +73,18 @@
   cursor: pointer;
 }
 
-/* .AndGate-buttons button:active {
-  background-color: rgb(233, 57, 57);
+.AndGate-buttons #trainButton:active {
+  background-color: rgb(46, 143, 49);
+  cursor: progress;
+}
+
+.AndGate-buttons #resetButton:active {
+  background-color: rgb(221, 38, 38);
   cursor: progress;
 }
 
 .AndGate-buttons button:hover {
-  box-shadow: 1px 1px rgb(90, 103, 211);
-} */
+  box-shadow: 1px 1px rgb(215, 216, 231);
+}
 
 

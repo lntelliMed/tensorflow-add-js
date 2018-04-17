@@ -95,7 +95,9 @@ class App extends Component {
           epochs={this.state.epochs}
           learningRate={this.state.learningRate}
           predictedOutput={this.state.predictedOutput} />
-        <LossChart lossArray={lossArray} epochs={this.state.epochs} />
+          <div style={{marginLeft: '25%'}} >
+          <LossChart lossArray={lossArray} epochs={this.state.epochs} />
+          </div>
       </div>
     );
   }

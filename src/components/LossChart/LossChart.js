@@ -8,7 +8,6 @@ class LossChart extends Component {
       {
         eventName: 'select',
         callback(Chart) {
-          // Returns Chart so you can access props and  the ChartWrapper object from chart.wrapper
           console.log('Selected ', Chart.chart.getSelection());
         },
       },
@@ -55,7 +54,7 @@ class LossChart extends Component {
         columns={this.state.columns}
         options={this.state.options}
         graph_id="LineChart"
-        width="100%"
+        width="70%"
         height="400px"
         chartEvents={this.chartEvents}
       />
